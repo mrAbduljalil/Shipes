@@ -1,0 +1,346 @@
+@import 'fonts.css';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'rubik';
+  font-weight: 400;
+}
+::-webkit-scrollbar-track {border-radius: 5px;}
+
+::-webkit-scrollbar {width: 3px;background: #000;}
+
+::-webkit-scrollbar-thumb {border-radius: 4px;background: rgb(206, 206, 206);}
+:root {
+--main-color: #091242;
+--bck-color: linear-gradient(121deg, #FFB629 0%, #FFDA56 50.72%, #FFD7A6 100%);
+--white: #FFFFFF;
+--text-back: #23212A;
+--text-gray: #666C89;
+--text-blue: #1C1F35;
+--text-yellow: #FFB629;
+--text-yellowend: #FFBE34;
+--star: #FDAF3B;
+}
+/* container */
+.container{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+}
+/* wrapp */
+.wrapp{
+width: 100%;
+min-height: 100vh;
+background: var(--white);
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+body{
+background-color:gray;
+}
+.container{
+max-width: 1920px;
+width: 100%;
+margin: 0 auto;   
+}
+.news{
+background-color:#fff;
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.news__latest-our{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.news__latest-our span{
+color: #1C1F35;
+font-family:'Rubik', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 3px 10px;
+align-items: center;
+gap: 10px;
+background: rgba(232, 232, 232, 0.50);
+}
+.news__latest{
+gap: 13px; 
+}
+.news__latest-title{
+color: #1C1F35;
+text-align: center;
+font-family: 'Rubik', sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;  
+margin-bottom:39px ; 
+}
+.news__latest-photos{
+display: flex;
+flex-direction: column;
+gap: 35px;
+padding-top: 29px;
+padding-bottom: 35px;
+border: 1px solid #D6D6D6; ;
+padding: 20px;
+border-left: none;
+border-right: none;
+}
+.news__latest-photos-text h3{
+width: 335px;
+color: #1C1F35;
+font-family:'Rubik', sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left:29px ;
+}
+.news__latest-photos-text p{
+width: 335px;
+color: #666C89;
+font-family:'Krub', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 151.523%;
+padding-top: 16px;
+padding-left:29px ;
+}
+.news__latest-photo-text-ul{
+width: 335px;
+color: #1C1F35;
+font-family: 'Krub', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 166.523%;
+padding-top:18px;
+padding-left:29px ;
+}
+.news__latest-photos-line{
+width: 1px;
+height: 308px;
+background: #D6D6D6;
+}
+.photos-blok,
+.photos-blok-black--2{
+display: flex;
+align-items: center;
+gap: 20px;
+padding-bottom: 35px;
+padding-top: 29px;
+position: relative;
+}
+.photos-blok-black--2{
+    position: absolute;
+    left: 50px;
+    z-index: 4;
+}
+.news__latest-button{
+color: #FFF;
+font-family:'Krub', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 135.023%;
+background-image: url(../images/Background.png);
+padding: 19px 59px;
+background-position: center;
+margin-top: 39px;
+margin-left: 377px;
+margin-bottom: 90px;
+}
+.shipes{
+background-color:#091242;   
+overflow: hidden;
+
+}
+.shipes__transitflow{
+display: flex; 
+column-gap: 63px;   
+}
+.shipes__transitflow-color{
+width: 312px;
+height: 118px;
+flex-shrink: 0;
+background-color: rgba(255, 255, 255, 0.08); 
+margin-top:-5px;   
+}
+.shipes__transitflow-img{
+ margin-top: 43px; 
+ margin-bottom: 43px;  
+}
+.shipes__transitflow-img-email{
+display: flex; 
+gap: 14px;
+}
+.shipes__transitflow-img-email span{
+color: #FFF;
+font-family: 'Krub',sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 135.023%;
+padding-top: 11px;
+}
+.shipes__transitflow-img-call{
+display: flex; 
+gap: 14px;  
+margin-top: 30px; 
+}
+.shipes__transitflow-img-call{
+color: #FFF;
+font-family: 'Krub',sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 135.023%;
+padding-top: 11px;
+}
+.shipes__transitflow-big-title{
+display: flex;
+width:1181px;
+background-color:rgba(255, 255, 255, 0.08);
+color: #FFF;
+margin-top: -5px ;
+}
+.shipes__transitflow-img p{
+width: 319px;
+color: #E8E8E8;
+font-family: 'Krub', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 151.523%;
+padding-top:77px;
+padding-bottom:33px;
+}
+.shipes__transitflow-big-title h5{
+color: #FFF;
+font-family: 'Rubik', sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 44px;
+padding-left:54px ;
+right: 553px;
+padding-bottom:44px;
+
+}
+.shipes__transitflow-big-title{
+gap:152px;    
+}
+.shipes__transitflow-big-box-ul{
+padding-left: 54px;
+}
+.shipes__transitflow-big-box-ul-item{
+color: #FFF;
+font-family: 'Krub',sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 250%;
+list-style: none;
+}
+.shipes__transitflow-big-box{
+display: flex;  
+padding-top:74px;  
+gap: 230px;
+}
+.shipes__transitflow-big-box input{
+  width: 317px;
+border: 1px solid #4E5683;  
+padding-top: 21px; 
+padding-bottom: 21px;
+padding-left: 40px;
+padding-right:192px;
+}
+.photos-blok-black--3{
+display: flex;
+position:absolute;
+z-index: 4;
+left: 180px;
+color: #FFF;
+font-family: 'Krub';
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 135.023%;
+}
+.h3-yellow{
+color: #FFBE34 !important;
+}
+.footer-blog{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+margin-top: 20px;
+
+}
+.footer-blog-sayt{
+display: flex;
+gap:27px; 
+padding-left: 35px;
+}
+.footer-blog-button{
+color: #23212A;
+font-family: 'Krub', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 135.023%;
+background: linear-gradient(127deg, #FFB629 0%, #FFDA56 50.72%, #FFD7A6 100%);
+padding:19px 36px;
+} 
+.power{
+  background-color: #091242;
+}
+.power__werbflow h5{
+  color: #FFF;
+  font-family: 'Krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 250%  
+}
+.power__werbflow{
+  display: flex;
+  justify-content: space-evenly;
+  border:1px solid #4E5683;
+  border-left:none;
+  border-right:none;
+  border-bottom: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left:90px ;
+}
+.power__werbflow-blog{
+  display: flex;
+ }
+.power__werbflow span{
+  color: #8388A7;
+  font-family: 'Krub';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 250%;
+  word-spacing: 20px;
+}
+
+
+
+
+
+

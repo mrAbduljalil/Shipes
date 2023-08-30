@@ -1,0 +1,18 @@
+/* krub */
+@font-face{
+  font-family: 'krub';
+  src: url(../fonts/krub/Krub-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+/* LeagueSpartan */
+@font-face{
+  font-family: 'LeagueSpartan';
+  src: url(../fonts/League-Spartan/LeagueSpartan-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+/* rubik */
+@font-face{
+  font-family: 'rubik';
+  src: url(../fonts/Rubik/Rubik-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
